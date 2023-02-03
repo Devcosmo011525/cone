@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="photos">
+            <div id="image1" class="photo-frame" onmouseover="hideText(1)"
+            onmouseout="showText(1)"
+            onclick="alertText(1)">
+                <span id="desc1" class="photo-description">
+                    CIX 1st Album 'OK' Prologue : Be OK 자켓 촬영
+                </span>
+            </div>
+            <div id="image2" class="photo-frame" onmouseover="hideText(2)"
+            onmouseout="showText(2)"
+            onclick="alertText(2)">
+                <span id="desc2" class="photo-description">
+                    CIX The Star 매거진 촬영 비하인드
+                </span>
+            </div>
+            <div id="image3" class="photo-frame" onmouseover="hideText(3)"
+            onmouseout="showText(3)"
+            onclick="alertText(3)">
+                <span id="desc3" class="photo-description">
+                    CIX 2023 설맞이 신년운세 촬영 비하인드
+                </span>
+            </div>
+            <div id="image4" class="photo-frame">
+                <iframe src="https://www.youtube.com/embed/fSrzQ06Me6c" frameborder="0" class="video"></iframe>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="f-title"> happy CIX Time</p>
+            <p class="f-date">2023.02.03</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
